@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
 //		.package(path: "../feather-core"),
-        .package(url: "https://github.com/feathercms/feather-core", .branch("test-refactored-modules")),
+        .package(url: "https://github.com/Rando-Coderissian/feather-core", .branch("test-refactored-modules")),
 		
 //        .package(url: "https://github.com/feathercms/feather-core", .branch("dev")),
         .package(url: "https://github.com/JohnSundell/Ink", from: "0.5.0"),

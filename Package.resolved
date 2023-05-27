@@ -29,6 +29,15 @@
         }
       },
       {
+        "package": "feather-core",
+        "repositoryURL": "https://github.com/Rando-Coderissian/feather-core",
+        "state": {
+          "branch": "test-refactored-modules",
+          "revision": "7a352c919180a9c6f05bc05f1ba86936d8d11e56",
+          "version": null
+        }
+      },
+      {
         "package": "feather-icons",
         "repositoryURL": "https://github.com/feathercms/feather-icons",
         "state": {
