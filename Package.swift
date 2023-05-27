@@ -10,12 +10,13 @@ let package = Package(
         .library(name: "MarkdownModule", targets: ["MarkdownModule"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/feathercms/feather-core", .branch("dev")),
+		.package(path: "../feather-core"),
+//        .package(url: "https://github.com/feathercms/feather-core", .branch("dev")),
         .package(url: "https://github.com/JohnSundell/Ink", from: "0.5.0"),
     ],
     targets: [
         .target(name: "MarkdownModule", dependencies: [
-            .product(name: "Feather", package: "feather-core"),
+            .product(name: "FeatherCore", package: "feather-core"),
             .product(name: "Ink", package: "Ink"),
         ],
         resources: [
