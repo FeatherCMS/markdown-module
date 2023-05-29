@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "MarkdownModule", dependencies: [
-            .product(name: "Feather", package: "feather-core"),
+            .product(name: "FeatherCore", package: "feather-core"),
             .product(name: "Ink", package: "Ink"),
         ],
         resources: [
